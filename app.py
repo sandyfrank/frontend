@@ -242,7 +242,7 @@ def prediction_page(language):
             "blood_glucose_level": blood_glucose_level
         }
 
-        BACKEND_URL = "https://backend-of-diabete-app.onrender.com"  # ton URL Render
+        BACKEND_URL = "https://backend-of-diabete-app.onrender.com/predict"  # ton URL Render
 
         try:
             response = requests.post(BACKEND_URL, json=payload, timeout=10)
