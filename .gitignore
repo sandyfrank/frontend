@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Streamlit
+.streamlit/
+
+# Data, models, secrets
+*.joblib
+*.pkl
+*.pt
+*.h5
+.env
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
